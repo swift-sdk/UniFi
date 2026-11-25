@@ -11,14 +11,14 @@ let package = Package(
         .executable(name: "unifi", targets: ["UniFiCLI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/leviouwendijk/Errors.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Primitives.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Errors.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Primitives.git", branch: "master"),
         .package(url: "https://github.com/swift-webc/HTTP.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Milieu.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Difference.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Arguments.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Loggers.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Sensitivity.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Milieu.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Difference.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Arguments.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Loggers.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Sensitivity.git", branch: "master"),
     ],
     targets: [
         .target(
